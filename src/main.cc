@@ -1,9 +1,8 @@
 #include <cstring>
-#include <grammars.h>
+#include <items.h>
 
 int main(int argc, char *argv[]) {
-    Grammar g;
-    g.read();
-    g.display();
+    ItemSets s;
+    s.display();
     return 0;
 }

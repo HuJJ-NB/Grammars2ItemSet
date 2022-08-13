@@ -7,8 +7,6 @@ LDFLAGS += -flto -Og -ggdb3 -fsanitize=address
 
 .PHONY: run pre
 
-INPUT_PATH := $(WORK_DIR)/resource
-INPUT_FILES := $(shell find $(INPUT_PATH)/*)
 OUTPUT_PATH := $(BUILD_DIR)/output
 
 run:$(BINARY)

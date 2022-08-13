@@ -1,0 +1,12 @@
+*.*
+*
+!*/
+!resource/*
+!Makefile
+!*.md
+!LICENSE
+!Makefile
+!.gitignore
+!*.mk
+!*.[ch]
+!*.cc
